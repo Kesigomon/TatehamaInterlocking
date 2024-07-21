@@ -873,6 +873,16 @@ namespace TatehamaInterlocking.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap Tatehama {
+            get {
+                object obj = ResourceManager.GetObject("Tatehama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap Tsuzaki {
             get {
                 object obj = ResourceManager.GetObject("Tsuzaki", resourceCulture);
